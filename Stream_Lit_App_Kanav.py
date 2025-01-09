@@ -165,9 +165,8 @@ def main():
     if model is None:
         st.stop()
     else:
-        st.success("Model loaded successfully!")
-    st.title("Visualisations")
-    st.image('daily_receipt_counts_2021.png', use_container_width=True)
+        st.success("Model loaded successfully! Hurray")
+
 
 
     
@@ -195,6 +194,9 @@ def main():
         except Exception as e:
             st.error(f"An error occurred during prediction: {str(e)}")
             st.write("Please ensure the input date is valid and try again.")
+    st.write("Oh! Don't forget to see the Visualisations :)")
+    st.title("Visualisations")
+    st.image('daily_receipt_counts_2021.png', use_container_width=True)
     st.image('Daily Receipt Counts with 365-Day Moving Average.png', use_container_width=True)
     st.image('Daily Receipt Counts with 180-Day Moving Average.png',  use_container_width=True)
     st.image('seasonal_plot2.png',  use_container_width=True)
@@ -203,6 +205,7 @@ def main():
     st.image('PA.png',  use_container_width=True)
     st.image('Actual vs Predicted Receipt Counts with Forecast.png', use_container_width=True)
     st.image('Actual vs Forecast Receipt Counts.png',  use_container_width=True)
+    st.write("Thanks for having a look at my app. You have reached the end.")
 
 
 if __name__ == "__main__":
