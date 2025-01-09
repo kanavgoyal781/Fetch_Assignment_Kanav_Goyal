@@ -32,5 +32,4 @@ How to Set Up and Run
 
 Contact for Support
 If there is any issue contact - kanavgoyal@uchicago.edu or +13122872109
-The app runs well. 
 
