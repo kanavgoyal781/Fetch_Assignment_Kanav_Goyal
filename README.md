@@ -1,7 +1,6 @@
 # Fetch_Assignment_Kanav_Goyal
 Description
 This application predicts receipt counts based on temporal features using a pre-trained model. It includes visualizations and user input for predictions.
-I have also added a preview, as to how app looks like, it's a file named "Stream_Lit_App_Kanav_Preview.pdf"
 
 
 Prerequisites
