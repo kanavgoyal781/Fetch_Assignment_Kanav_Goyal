@@ -167,7 +167,7 @@ def main():
     else:
         st.success("Model loaded successfully!")
     st.title("Visualisations")
-    st.image('daily_receipt_counts_2021.png', use_column_width=True)
+    st.image('daily_receipt_counts_2021.png', use_container_width=True)
 
 
     
@@ -195,14 +195,14 @@ def main():
         except Exception as e:
             st.error(f"An error occurred during prediction: {str(e)}")
             st.write("Please ensure the input date is valid and try again.")
-    st.image('Daily Receipt Counts with 365-Day Moving Average.png', use_column_width=True)
-    st.image('Daily Receipt Counts with 180-Day Moving Average.png',  use_column_width=True)
-    st.image('seasonal_plot2.png',  use_column_width=True)
-    st.image('seasonal_plot3.png',  use_column_width=True)
-    st.image('lagplot.png', use_column_width=True)
-    st.image('PA.png',  use_column_width=True)
-    st.image('Actual vs Predicted Receipt Counts with Forecast.png', use_column_width=True)
-    st.image('Actual vs Forecast Receipt Counts.png',  use_column_width=True)
+    st.image('Daily Receipt Counts with 365-Day Moving Average.png', use_container_width=True)
+    st.image('Daily Receipt Counts with 180-Day Moving Average.png',  use_container_width=True)
+    st.image('seasonal_plot2.png',  use_container_width=True)
+    st.image('seasonal_plot3.png',  use_container_width=True)
+    st.image('lagplot.png', use_container_width=True)
+    st.image('PA.png',  use_container_width=True)
+    st.image('Actual vs Predicted Receipt Counts with Forecast.png', use_container_width=True)
+    st.image('Actual vs Forecast Receipt Counts.png',  use_container_width=True)
 
 
 if __name__ == "__main__":
