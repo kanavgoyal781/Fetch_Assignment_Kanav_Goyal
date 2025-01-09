@@ -12,7 +12,6 @@ pip install streamlit pandas numpy seaborn joblib matplotlib
 Your folder should contain the following files:
 
 
-$tree
 Fetch/
 ├── model_updated.pkl                              # Pre-trained model file
 ├── daily_receipt_counts_2021.png                 # Visualization 1
