@@ -203,12 +203,12 @@ def main():
     st.write("Time for some Seasonality check")
     st.image('seasonal_plot2.png',  use_container_width=True)
     st.image('seasonal_plot3.png',  use_container_width=True)
-    st.write("Not being used, but I just made it, so I will just add it too.")
+    st.write("Time to check if lagged values and time series are related(Not being used.)")
     st.image('lagplot.png', use_container_width=True)
     st.image('PA.png',  use_container_width=True)
     st.image('Actual vs Predicted Receipt Counts with Forecast.png', use_container_width=True)
     st.image('Actual vs Forecast Receipt Counts.png',  use_container_width=True)
-    st.write("Thanks for having a look at my app. You have reached the end. Have a good one!")
+    st.write("You have reached the end. Thank you and have a good one!")
 
 
 if __name__ == "__main__":
