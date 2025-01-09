@@ -27,25 +27,9 @@ Fetch/
 └── Stream_Lit_App_Kanav.py                       # The Streamlit app file
 
 How to Set Up and Run
-1. **Download the Repository:**
-- Clone this repository or download the files manually into a folder named `Fetch`.
-2. **Update File Paths in the Code:**
-- Replace the local file paths in `Stream_Lit_App_Kanav.py` to point to the correct file locations on your system.
-- **Example:**
-  Replace:
-  st.image('/Users/kanav/Desktop/MS UChicago/Internship Info/Fetch/daily_receipt_counts_2021.png', use_column_width=True)
+[![Streamlit App](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://fetchassignmentkanavgoyal-zndc5b5rncgrtyatmdfkzz.streamlit.app)
   
-  With:
-  
-  st.image('daily_receipt_counts_2021.png', use_column_width=True)
 
-3. **Run the Application:**
-- Navigate to the folder containing the `Stream_Lit_App_Kanav.py` file.
-- Run the app using Streamlit:
-  streamlit run Stream_Lit_App_Kanav.py
-
-Notes on File Paths
-- All image files and the model (`model_updated.pkl`) must be placed in the **same directory** as the Streamlit script (`Stream_Lit_App_Kanav.py`).
 
 Contact for Support
 If there is any issue contact - kanavgoyal@uchicago.edu or +13122872109
