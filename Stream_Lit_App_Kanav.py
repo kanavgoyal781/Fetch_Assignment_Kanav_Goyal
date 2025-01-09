@@ -196,16 +196,19 @@ def main():
             st.write("Please ensure the input date is valid and try again.")
     st.write("Oh! Don't forget to see the Visualisations :)")
     st.title("Visualisations")
+    st.write("Time for some trend analysis")
     st.image('daily_receipt_counts_2021.png', use_container_width=True)
     st.image('Daily Receipt Counts with 365-Day Moving Average.png', use_container_width=True)
     st.image('Daily Receipt Counts with 180-Day Moving Average.png',  use_container_width=True)
+    st.write("Time for some Seasonality check")
     st.image('seasonal_plot2.png',  use_container_width=True)
     st.image('seasonal_plot3.png',  use_container_width=True)
+    st.write("Not being used, but I just made it, so I will just add it too.")
     st.image('lagplot.png', use_container_width=True)
     st.image('PA.png',  use_container_width=True)
     st.image('Actual vs Predicted Receipt Counts with Forecast.png', use_container_width=True)
     st.image('Actual vs Forecast Receipt Counts.png',  use_container_width=True)
-    st.write("Thanks for having a look at my app. You have reached the end.")
+    st.write("Thanks for having a look at my app. You have reached the end. Have a good one!")
 
 
 if __name__ == "__main__":
