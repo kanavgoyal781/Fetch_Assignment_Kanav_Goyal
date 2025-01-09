@@ -24,7 +24,7 @@ Fetch/
 ├── Actual vs Predicted Receipt Counts with Forecast.png  # Forecast visualization
 ├── Actual vs Forecast Receipt Counts.png         # Additional forecast visualization
 └── Stream_Lit_App_Kanav.py                       # The Streamlit app file
-'''
+
 ###
 ## How to Set Up and Run
 Then click on the link to use the app, but in order to setup, put everything in the same folder and run the stream lit app using the command:-
