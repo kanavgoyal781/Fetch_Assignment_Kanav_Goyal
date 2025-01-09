@@ -7,10 +7,11 @@ This application predicts receipt counts based on temporal features using a pre-
 1. **Python Version**: Ensure you have Python 3.7 or higher installed.
 2. **Dependencies**: Install the required libraries by running:
 
-## Folder Structure
+### Folder Structure
 Your folder should contain the following files:
 
-'''bash
+
+
 Fetch/
 ├── model_updated.pkl                              # Pre-trained model file
 ├── daily_receipt_counts_2021.png                 # Visualization 1
@@ -25,7 +26,7 @@ Fetch/
 ├── Actual vs Forecast Receipt Counts.png         # Additional forecast visualization
 └── Stream_Lit_App_Kanav.py                       # The Streamlit app file
 '''
-
+###
 ## How to Set Up and Run
 [![Streamlit App](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://fetchassignmentkanavgoyal-zndc5b5rncgrtyatmdfkzz.streamlit.app)
 
