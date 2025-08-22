@@ -12,18 +12,17 @@ pip install streamlit pandas numpy seaborn joblib matplotlib
 Your folder should contain the following files:
 
 Fetch/
-├── model_updated.pkl                              # Pre-trained model file
-├── daily_receipt_counts_2021.png                 # Visualization 1
-├── Daily Receipt Counts with 365-Day Moving Average.png   # Visualization 2
-├── Daily Receipt Counts with 180-Day Moving Average.png   # Visualization 3
-├── seasonal_plot1.png                            # Weekly seasonal plot
-├── seasonal_plot2.png                            # Yearly seasonal plot
-├── seasonal_plot3.png                            # Monthly seasonal plot
-├── lagplot.png                                   # Lag plot
-├── PA.png                                        # Partial Autocorrelation plot
-├── Actual vs Predicted Receipt Counts with Forecast.png  # Forecast visualization
-├── Actual vs Forecast Receipt Counts.png         # Additional forecast visualization
-└── Stream_Lit_App_Kanav.py                       # The Streamlit app file
+[cite_start]├── model_updated.pkl                                  # Pre-trained model file [cite: 1]
+[cite_start]├── daily_receipt_counts_2021.png                      # Visualization 1 [cite: 1]
+[cite_start]├── Daily Receipt Counts with 365-Day Moving Average.png # Visualization 2 [cite: 1]
+[cite_start]├── Daily Receipt Counts with 180-Day Moving Average.png # Visualization 3 [cite: 1]
+[cite_start]├── seasonal_plot1.png                                 # Weekly seasonal plot [cite: 1]
+[cite_start]├── seasonal_plot2.png                                 # Yearly seasonal plot [cite: 1]
+[cite_start]├── seasonal_plot3.png                                 # Monthly seasonal plot [cite: 1]
+[cite_start]├── lagplot.png                                        # Lag plot [cite: 1]
+[cite_start]├── PA.png                                             # Partial Autocorrelation plot [cite: 1]
+[cite_start]├── Actual vs Predicted Receipt Counts with Forecast.png # Forecast visualization [cite: 1]
+[cite_start]└── Actual vs Forecast Receipt Counts.png              # Additional forecast visualization [cite: 1]
 
 ###
 ## How to Set Up and Run
